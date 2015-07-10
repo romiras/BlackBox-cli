@@ -1,4 +1,4 @@
-BB16Final
+BlackBox-cli
 =========
 
-BlackBox Component Builder 1.6 (11.10.2013)
+Command-line mode for BlackBox Component Builder

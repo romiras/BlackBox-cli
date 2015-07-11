@@ -1,0 +1,5 @@
+#!/bin/bash
+
+make -f Makefile.linux clean
+PWD=`pwd`
+wine c:\\Program\ Files\\BlackBox\\BlackBox.exe /USE "`winepath $PWD`" $* &

@@ -59,7 +59,7 @@ MODULE HostConsole;
 		UNTIL done;
 
 		IF W > 0 THEN
-			res1 := WinApi.MultiByteToWideChar(WinApi.CP_OEMCP, {}, ss, W, text, LEN(text) - 1);
+			res1 := WinApi.MultiByteToWideChar(65001 (*WinApi.CP_UTF8*), {}, ss, W, text, LEN(text) - 1);
 			IF (res1 > 0) & (res1 < LEN(text)) THEN
 				text[res1] := 0X
 			ELSE

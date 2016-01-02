@@ -3,8 +3,7 @@ MODULE Init;
 	IMPORT
 		Dialog,
 		Converters, (* .odc *)
-		HostInit,
-		Console;
+		HostInit;
 
 	PROCEDURE Init;
 		VAR res: INTEGER;
@@ -14,6 +13,5 @@ MODULE Init;
 	END Init;
 
 BEGIN
-	Init;
-	Console.WriteStr("Hello!"); Console.WriteLn
+	Init
 END Init.

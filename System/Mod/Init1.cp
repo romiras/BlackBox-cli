@@ -15,6 +15,6 @@ MODULE Init;
 	END Init;
 
 BEGIN
-	Console.WriteStr("Running as command interpreter. Waiting for input from stdin..."); Console.WriteLn;
+	(*Console.WriteStr("Running as command interpreter. Waiting for input from stdin..."); Console.WriteLn;*)
 	Init
 END Init.
